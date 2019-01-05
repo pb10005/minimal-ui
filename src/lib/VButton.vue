@@ -3,6 +3,7 @@
 </template>
 <script>
 export default {
+  name: "VButton",
   methods: {
     onClick() {
       this.$emit("click");

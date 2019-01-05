@@ -1,7 +1,12 @@
-import VButton from "./lib/VButton";
-import VInput from "./lib/VInput";
-import VMessage from "./lib/VMessage";
-import VModal from "./lib/VModal";
-import VSelect from "./lib/VSelect";
+import * as components from "./lib";
 
-export { VButton, VInput, VMessage, VModal, VSelect };
+const MinimalUI = {
+  install(Vue) {
+    for (let key in components) {
+      const component = components[key];
+      Vue.component(component.name, component);
+    }
+  }
+};
+
+export default MinimalUI;

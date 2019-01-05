@@ -30,21 +30,12 @@
 </template>
 
 <script>
-import { VButton, VInput, VMessage, VModal, VSelect } from "./index.js";
-
 export default {
   name: "app",
   data() {
     return {
       isModalActive: false
     };
-  },
-  components: {
-    VButton,
-    VInput,
-    VMessage,
-    VModal,
-    VSelect
   }
 };
 </script>

@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build src/index.js --target lib --dest dist --name minimal-ui",
+    "build_doc": "vue-cli-service build src/main.js --dest docs --name minimal-ui",
+    "build_wc": "vue-cli-service build src/lib/*.vue --target wc --name minimal-ui --dest wc",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"

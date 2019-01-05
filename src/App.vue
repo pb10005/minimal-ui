@@ -16,7 +16,7 @@
     <v-button @click="isModalActive = true">Open</v-button>
     <v-modal :isActive="isModalActive" @clickModal="isModalActive = false">
       <div>
-        a<br />
+        modal message<br />
         <v-button>OK</v-button>
         <v-button class="danger">Cancel</v-button>
       </div>

@@ -28,7 +28,6 @@ button:hover {
   &.danger {
     background: #ff0000;
     color: #ffffff;
-    border: 0;
   }
 }
 </style>

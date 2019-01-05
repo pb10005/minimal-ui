@@ -1,20 +1,20 @@
 <template>
-    <div id="message" v-if="!dismiss">
-        <span class="dismiss" @click="dismiss = true">X</span>
-        <div id="content">{{ content }}</div>
-    </div>
+  <div id="message" v-if="!dismiss">
+    <span class="dismiss" @click="dismiss = true">X</span>
+    <div id="content">{{ content }}</div>
+  </div>
 </template>
 <script>
 export default {
-    props: {
-        content: String
-    },
-    data() {
-        return {
-            dismiss: false
-        };
-    }
-}
+  props: {
+    content: String
+  },
+  data() {
+    return {
+      dismiss: false
+    };
+  }
+};
 </script>
 <style lang="scss" scoped>
 #message {
@@ -23,12 +23,12 @@ export default {
   margin: 0 10px;
   padding: 10px;
   #content {
-      margin-right: 20px;
+    margin-right: 20px;
   }
 }
 .dismiss {
-    position: absolute;
-    right: 30px;
-    cursor: pointer;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
 }
 </style>

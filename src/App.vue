@@ -23,7 +23,9 @@
     </v-modal>
     <h2>Message</h2>
     <p>Dismissible message</p>
-    <v-message content="The quick brown fox jumps over the lazy dog."></v-message>
+    <v-message
+      content="The quick brown fox jumps over the lazy dog."
+    ></v-message>
   </div>
 </template>
 

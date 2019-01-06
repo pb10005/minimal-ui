@@ -1,5 +1,3 @@
 module.exports = {
-    baseUrl: process.env.NODE_ENV === 'production'
-        ? '/minimal-ui/'
-        : '/'
+  baseUrl: process.env.NODE_ENV === "production" ? "/minimal-ui/" : "/"
 };

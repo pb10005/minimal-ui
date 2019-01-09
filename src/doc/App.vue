@@ -8,7 +8,13 @@
     <h2>Input</h2>
     <v-input placeholder="input" /><br />
     <h2>Select</h2>
-    <v-select>
+    <p>default</p>
+    <v-select placeholder="placeholder">
+      <option selected>item1</option> <option>item2</option>
+      <option>item3</option> <option>item4</option> </v-select
+    ><br />
+    <p>Multiple(option)</p>
+    <v-select multiple>
       <option selected>item1</option> <option>item2</option>
       <option>item3</option> <option>item4</option>
     </v-select>

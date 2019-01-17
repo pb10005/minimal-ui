@@ -6,7 +6,7 @@ export default {
   name: "VInput",
   props: {
     type: String,
-    value: [String, Number, Boolean, Object]
+    value: [String, Number]
   },
   data() {
     return {
